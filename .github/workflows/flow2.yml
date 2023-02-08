@@ -3,6 +3,6 @@ on: issues
 jobs:
   issue-details:
     runs-on: ubuntu-latest
-      steps:
-        - name: Print details
-          run: echo "${{ github }}"
+    steps:
+      - name: Print details
+        run: echo "${{ github }}"
